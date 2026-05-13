@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial;
+            background:#111;
+            color:white;
+        }
+
+        nav{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            padding:20px;
+            background:#1a1a1a;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        .hero{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            padding:50px;
+        }
+
+        .hero img{
+            width:220px;
+            height:220px;
+            border-radius:50%;
+            border:4px solid white;
+        }
+
+        .btn{
+            padding:10px 20px;
+            background:white;
+            color:black;
+            border:none;
+            border-radius:5px;
+            margin-top:10px;
+        }
+
+        section{
+            padding:30px 60px;
+        }
+
+        h2{
+            border-bottom:2px solid white;
+            width:200px;
+            padding-bottom:5px;
+        }
+
+        .skills span{
+            display:inline-block;
+            margin:10px;
+            padding:10px 15px;
+            background:#222;
+            border-radius:5px;
+        }
+
+        .projects{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:#222;
+            padding:20px;
+            width:250px;
+            border-radius:10px;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#1a1a1a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <div>
+            <h1>Hi, I'm Arun</h1>
+            <h3>Computer Science Student</h3>
+            <p>I love programming and web development.</p>
+
+            <button class="btn">View Projects</button>
+        </div>
+
+        <img src="https://via.placeholder.com/220" alt="profile">
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a BCA student with interest in programming,
+            web development and database management.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <span>Python</span>
+            <span>C</span>
+            <span>Java</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>SQL</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio using HTML and CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Student Management</h3>
+                <p>Database mini project.</p>
+            </div>
+
+            <div class="card">
+                <h3>Task Manager</h3>
+                <p>Simple productivity application.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+
+        <p>Python Certificate</p>
+        <p>Web Development Certificate</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: arun@gmail.com</p>
+        <p>Phone: 9876543210</p>
+    </section>
+
+    <footer>
+        © 2026 My Portfolio
+    </footer>
+
+</body>
+</html>
